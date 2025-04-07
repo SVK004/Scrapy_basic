@@ -1,0 +1,1 @@
+Creating a basic Scrapy project which we have used to scrape 1000 books data from the website "https://books.toscrape.com"and storing the title, price, link of each book inside of books.json file
