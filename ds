@@ -1,0 +1,120 @@
+[33mcommit 36dd662032cb315c843f131dd5563f8a3f4b005a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: AmazingCuber <saivenkatkrishna2004@gmail.com>
+Date:   Mon Apr 7 20:35:53 2025 +0530
+
+    For more information read README.md file
+
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b6c4bcc[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mCreating a basic Scrapy project which we have used to scrape 1000 books data from the website "https://books.toscrape.com"and storing the title, price, link of each book inside of books.json file[m
+\ No newline at end of file[m
+[1mdiff --git a/basic/__init__.py b/basic/__init__.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/basic/__pycache__/__init__.cpython-311.pyc b/basic/__pycache__/__init__.cpython-311.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..22aebac[m
+Binary files /dev/null and b/basic/__pycache__/__init__.cpython-311.pyc differ
+[1mdiff --git a/basic/__pycache__/settings.cpython-311.pyc b/basic/__pycache__/settings.cpython-311.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ba14043[m
+Binary files /dev/null and b/basic/__pycache__/settings.cpython-311.pyc differ
+[1mdiff --git a/basic/books.json b/basic/books.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b0bb13a[m
+[1m--- /dev/null[m
+[1m+++ b/basic/books.json[m
+[36m@@ -0,0 +1,1002 @@[m
+[32m+[m[32m[[m
+[32m+[m[32m{"name": "A Light in the Attic", "price": "51.77", "link": "catalogue/a-light-in-the-attic_1000/index.html"},[m
+[32m+[m[32m{"name": "Tipping the Velvet", "price": "53.74", "link": "catalogue/tipping-the-velvet_999/index.html"},[m
+[32m+[m[32m{"name": "Soumission", "price": "50.10", "link": "catalogue/soumission_998/index.html"},[m
+[32m+[m[32m{"name": "Sharp Objects", "price": "47.82", "link": "catalogue/sharp-objects_997/index.html"},[m
+[32m+[m[32m{"name": "Sapiens: A Brief History of Humankind", "price": "54.23", "link": "catalogue/sapiens-a-brief-history-of-humankind_996/index.html"},[m
+[32m+[m[32m{"name": "The Requiem Red", "price": "22.65", "link": "catalogue/the-requiem-red_995/index.html"},[m
+[32m+[m[32m{"name": "The Dirty Little Secrets of Getting Your Dream Job", "price": "33.34", "link": "catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html"},[m
+[32m+[m[32m{"name": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull", "price": "17.93", "link": "catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html"},[m
+[32m+[m[32m{"name": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics", "price": "22.60", "link": "catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html"},[m
+[32m+[m[32m{"name": "The Black Maria", "price": "52.15", "link": "catalogue/the-black-maria_991/index.html"},[m
+[32m+[m[32m{"name": "Starving Hearts (Triangular Trade Trilogy, #1)", "price": "13.99", "link": "catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html"},[m
+[32m+[m[32m{"name": "Shakespeare's Sonnets", "price": "20.66", "link": "catalogue/shakespeares-sonnets_989/index.html"},[m
+[32m+[m[32m{"name": "Set Me Free", "price": "17.46", "link": "catalogue/set-me-free_988/index.html"},[m
+[32m+[m[32m{"name": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)", "price": "52.29", "link": "catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html"},[m
+[32m+[m[32m{"name": "Rip it Up and Start Again", "price": "35.02", "link": "catalogue/rip-it-up-and-start-again_986/index.html"},[m
+[32m+[m[32m{"name": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991", "price": "57.25", "link": "catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html"},[m
+[32m+[m[32m{"name": "Olio", "price": "23.88", "link": "catalogue/olio_984/index.html"},[m
+[32m+[m[32m{"name": "Mesaerion: The Best Science Fiction Stories 1800-1849", "price": "37.59", "link": "catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html"},[m
+[32m+[m[32m{"name": "Libertarianism for Beginners", "price": "51.33", "link": "catalogue/libertarianism-for-beginners_982/index.html"},[m
+[32m+[m[32m{"name": "It's Only the Himalayas", "price": "45.17", "link": "catalogue/its-only-the-himalayas_981/index.html"},[m
+[32m+[m[32m{"name": "In Her Wake", "price": "12.84", "link": "in-her-wake_980/index.html"},[m
+[32m+[m[32m{"name": "How Music Works", "price": "37.32", "link": "how-music-works_979/index.html"},[m
+[32m+[m[32m{"name": "Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More", "price": "30.52", "link": "foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978/index.html"},[m
+[32m+[m[32m{"name": "Chase Me (Paris Nights #2)", "price": "25.27", "link": "chase-me-paris-nights-2_977/index.html"},[m
+[32m+[m[32m{"name": "Black Dust", "price": "34.53", "link": "black-dust_976/index.html"},[m
+[32m+[m[32m{"name": "Birdsong: A Story in Pictures", "price": "54.64", "link": "birdsong-a-story-in-pictures_975/index.html"},[m
+[32m+[m[32m{"name": "America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana", "price": "22.50", "link": "americas-cradle-of-quarterbacks-western-pennsylvanias-football-factory-from-johnny-unitas-to-joe-montana_974/index.html"},[m
+[32m+[m[32m{"name": "Aladdin and His Wonderful Lamp", "price": "53.13", "link": "aladdin-and-his-wonderful-lamp_973/index.html"},[m
+[32m+[m[32m{"name": "Worlds Elsewhere: Journeys Around Shakespeare’s Globe", "price": "40.30", "link": "worlds-elsewhere-journeys-around-shakespeares-globe_972/index.html"},[m
+[32m+[m[32m{"name": "Wall and Piece", "price": "44.18", "link": "wall-and-piece_971/index.html"},[m
+[32m+[m[32m{"name": "The Four Agreements: A Practical Guide to Personal Freedom", "price": "17.66", "link": "the-four-agreements-a-practical-guide-to-personal-freedom_970/index.html"},[m
+[32m+[m[32m{"name": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate", "price": "31.05", "link": "the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate_969/index.html"},[m
+[32m+[m[32m{"name": "The Elephant Tree", "price": "23.82", "link": "the-elephant-tree_968/index.html"},[m
+[32m+[m[32m{"name": "The Bear and the Piano", "price": "36.89", "link": "the-bear-and-the-piano_967/index.html"},[m
+[32m+[m[32m{"name": "Sophie's World", "price": "15.94", "link": "sophies-world_966/index.html"},[m
+[32m+[m[32m{"name": "Penny Maybe", "price": "33.29", "link": "penny-maybe_965/index.html"},[m
+[32m+[m[32m{"name": "Maude (1883-1993):She Grew Up with the country", "price": "18.02", "link": "maude-1883-1993she-grew-up-with-the-country_964/index.html"},[m
+[32m+[m[32m{"name": "In a Dark, Dark Wood", "price": "19.63", "link": "in-a-dark-dark-wood_963/index.html"},[m
+[32m+[m[32m{"name": "Behind Closed Doors", "price": "52.22", "link": "behind-closed-doors_962/index.html"},[m
+[32m+[m[32m{"name": "You can't bury them all: Poems", "price": "33.63", "link": "you-cant-bury-them-all-poems_961/index.html"},[m
+[32m+[m[32m{"name": "Slow States of Collapse: Poems", "price": "57.31", "link": "slow-states-of-collapse-poems_960/index.html"},[m
+[32m+[m[32m{"name": "Reasons to Stay Alive", "price": "26.41", "link": "reasons-to-stay-alive_959/index.html"},[m
+[32m+[m[32m{"name": "Private Paris (Private #10)", "price": "47.61", "link": "private-paris-private-10_958/index.html"},[m
+[32m+[m[32m{"name": "#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.", "price": "23.11", "link": "higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957/index.html"},[m
+[32m+[m[32m{"name": "Without Borders (Wanderlove #1)", "price": "45.07", "link": "without-borders-wanderlove-1_956/index.html"},[m
+[32m+[m[32m{"name": "When We Collided", "price": "31.77", "link": "when-we-collided_955/index.html"},[m
+[32m+[m[32m{"name": "We Love You, Charlie Freeman", "price": "50.27", "link": "we-love-you-charlie-freeman_954/index.html"},[m
+[32m+[m[32m{"name": "Untitled Collection: Sabbath Poems 2014", "price": "14.27", "link": "untitled-collection-sabbath-poems-2014_953/index.html"},[m
+[32m+[m[32m{"name": "Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness", "price": "44.18", "link": "unseen-city-the-majesty-of-pigeons-the-discreet-charm-of-snails-other-wonders-of-the-urban-wilderness_952/index.html"},[m
+[32m+[m[32m{"name": "Unicorn Tracks", "price": "18.78", "link": "unicorn-tracks_951/index.html"},[m
+[32m+[m[32m{"name": "Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink", "price": "25.52", "link": "unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950/index.html"},[m
+[32m+[m[32m{"name": "Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)", "price": "16.28", "link": "tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html"},[m
+[32m+[m[32m{"name": "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity", "price": "31.12", "link": "throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948/index.html"},[m
+[32m+[m[32m{"name": "This One Summer", "price": "19.49", "link": "this-one-summer_947/index.html"},[m
+[32m+[m[32m{"name": "Thirst", "price": "17.27", "link": "thirst_946/index.html"},[m
+[32m+[m[32m{"name": "The Torch Is Passed: A Harding Family Story", "price": "19.09", "link": "the-torch-is-passed-a-harding-family-story_945/index.html"},[m
+[32m+[m[32m{"name": "The Secret of Dreadwillow Carse", "price": "56.13", "link": "the-secret-of-dreadwillow-carse_944/index.html"},[m
+[32m+[m[32m{"name": "The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!", "price": "56.41", "link": "the-pioneer-woman-cooks-dinnertime-comfort-classics-freezer-food-16-minute-meals-and-other-delicious-ways-to-solve-supper_943/index.html"},[m
+[32m+[m[32m{"name": "The Past Never Ends", "price": "56.50", "link": "the-past-never-ends_942/index.html"},[m
+[32m+[m[32m{"name": "The Natural History of Us (The Fine Art of Pretending #2)", "price": "45.22", "link": "the-natural-history-of-us-the-fine-art-of-pretending-2_941/index.html"},[m
+[32m+[m[32m{"name": "The Nameless City (The Nameless City #1)", "price": "38.16", "link": "the-nameless-city-the-nameless-city-1_940/index.html"},[m
+[32m+[m[32m{"name": "The Murder That Never Was (Forensic Instincts #5)", "price": "54.11", "link": "the-murder-that-never-was-forensic-instincts-5_939/index.html"},[m
+[32m+[m[32m{"name": "The Most Perfect Thing: Inside (and Outside) a Bird's Egg", "price": "42.96", "link": "the-most-perfect-thing-inside-and-outside-a-birds-egg_938/index.html"},[m
+[32m+[m[32m{"name": "The Mindfulness and Acceptance Workbook for Anxiety: A Guide to Breaking Free from Anxiety, Phobias, and Worry Using Acceptance and Commitment Therapy", "price": "23.89", "link": "the-mindfulness-and-acceptance-workbook-for-anxiety-a-guide-to-breaking-free-from-anxiety-phobias-and-worry-using-acceptance-and-commitment-therapy_937/index.html"},[m
+[32m+[m[32m{"name": "The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing", "price": "16.77", "link": "the-life-changing-magic-of-tidying-up-the-japanese-art-of-decluttering-and-organizing_936/index.html"},[m
+[32m+[m[32m{"name": "The Inefficiency Assassin: Time Management Tactics for Working Smarter, Not Longer", "price": "20.59", "link": "the-inefficiency-assassin-time-management-tactics-for-working-smarter-not-longer_935/index.html"},[m
+[32m+[m[32m{"name": "The Gutsy Girl: Escapades for Your Life of Epic Adventure", "price": "37.13", "link": "the-gutsy-girl-escapades-for-your-life-of-epic-adventure_934/index.html"},[m
+[32m+[m[32m{"name": "The Electric Pencil: Drawings from Inside State Hospital No. 3", "price": "56.06", "link": "the-electric-pencil-drawings-from-inside-state-hospital-no-3_933/index.html"},[m
+[32m+[m[32m{"name": "The Death of Humanity: and the Case for Life", "price": "58.11", "link": "the-death-of-humanity-and-the-case-for-life_932/index.html"},[m
+[32m+[m[32m{"name": "The Bulletproof Diet: Lose up to a Pound a Day, Reclaim Energy and Focus, Upgrade Your Life", "price": "49.05", "link": "the-bulletproof-diet-lose-up-to-a-pound-a-day-reclaim-energy-and-focus-upgrade-your-life_931/index.html"},[m
+[32m+[m[32m{"name": "The Art Forger", "price": "40.76", "link": "the-art-forger_930/index.html"},[m
+[32m+[m[32m{"name": "The Age of Genius: The Seventeenth Century and the Birth of the Modern Mind", "price": "19.73", "link": "the-age-of-genius-the-seventeenth-century-and-the-birth-of-the-modern-mind_929/index.html"},[m
+[32m+[m[32m{"name": "The Activist's Tao Te Ching: Ancient Advice for a Modern Revolution", "price": "32.24", "link": "the-activists-tao-te-ching-ancient-advice-for-a-modern-revolution_928/index.html"},[m
+[32m+[m[32m{"name": "Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up", "price": "41.83", "link": "spark-joy-an-illustrated-master-class-on-the-art-of-organizing-and-tidying-up_927/index.html"},[m
+[32m+[m[32m{"name": "Soul Reader", "price": "39.58", "link": "soul-reader_926/index.html"},[m
+[32m+[m[32m{"name": "Security", "price": "39.25", "link": "security_925/index.html"},[m
+[32m+[m[32m{"name": "Saga, Volume 6 (Saga (Collected Editions) #6)", "price": "25.02", "link": "saga-volume-6-saga-collected-editions-6_924/index.html"},[m
+[32m+[m[32m{"name": "Saga, Volume 5 (Saga (Collected Editions) #5)", "price": "51.04", "link": "saga-volume-5-saga-collected-editions-5_923/index.html"},[m
+[32m+[m[32m{"name": "Reskilling America: Learning to Labor in the Twenty-First Century", "price": "19.83", "link": "reskilling-america-learning-to-labor-in-the-twenty-first-century_922/index.html"},[m
+[32m+[m[32m{"name": "Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15)", "price": "50.40", "link": "rat-queens-vol-3-demons-rat-queens-collected-editions-11-15_921/index.html"},[m
+[32m+[m[32m{"name": "Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1)", "price": "13.61", "link": "princess-jellyfish-2-in-1-omnibus-vol-01-princess-jellyfish-2-in-1-omnibus-1_920/index.html"},[m
+[32m+[m[32m{"name": "Princess Between Worlds (Wide-Awake Princess #5)", "price": "13.34", "link": "princess-between-worlds-wide-awake-princess-5_919/index.html"},[m
+[32m+[m[32m{"name": "Pop Gun War, Volume 1: Gift", "price": "18.97", "link": "pop-gun-war-volume-1-gift_918/index.html"},[m
+[32m+[m[32m{"name": "Political Suicide: Missteps, Peccadilloes, Bad Calls, Backroom Hijinx, Sordid Pasts, Rotten Breaks, and Just Plain Dumb Mistakes in the Annals of American Politics", "price": "36.28", "link": "political-suicide-missteps-peccadilloes-bad-calls-backroom-hijinx-sordid-pasts-rotten-breaks-and-just-plain-dumb-mistakes-in-the-annals-of-american-politics_917/index.html"},[m
+[32m+[m[32m{"name": "Patience", "price": "10.16", "link": "patience_916/index.html"},[m
+[32m+[m[32m{"name": "Outcast, Vol. 1: A Darkness Surrounds Him (Outcast #1)", "price": "15.44", "link": "outcast-vol-1-a-darkness-surrounds-him-outcast-1_915/index.html"},[m
+[32m+[m[32m{"name": "orange: The Complete Collection 1 (orange: The Complete Collection #1)", "price": "48.41", "link": "orange-the-complete-collection-1-orange-the-complete-collection-1_914/index.html"},[m
+[32m+[m[32m{"name": "Online Marketing for Busy Authors: A Step-By-Step Guide", "price": "46.35", "link": "online-marketing-for-busy-authors-a-step-by-step-guide_913/index.htm
